@@ -1,0 +1,152 @@
+body 
+{
+    margin:0px;
+    text-align: center;
+    font-family:"merriweather",serif;
+    color:#11999e;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5.625rem;
+    margin: 50px;
+    color: #66bfbf;
+}
+
+h2{
+    font-family:"Montserrat",sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: "Montserrat",sans-serif;
+    color: black; 
+}
+
+p{
+    line-height:2;
+}
+
+a{
+    color: #11999e;
+    font-family:"Montserrat",sans-serif;
+    margin:10px 20px;
+    text-decoration:solid;
+}
+
+a:hover{
+    color:black;
+}
+
+hr{
+    border: dotted green 10px ;
+    border-bottom: none;
+    width: 10%;
+    margin:100px auto;
+}
+
+.top-container{
+padding-bottom: 50px;
+padding-top: 100px;
+position: relative;
+background-color: aliceblue;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: black;
+    margin:20px 30px 20px;
+    padding: 50px 0 20px;
+
+}
+
+.pro{
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+.intro{
+    width:30%;
+    margin:auto;
+}
+
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top:70px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left:250px;
+    bottom:400px; 
+}
+
+.skills-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+
+.code-img{
+    width:30%;
+    float:right;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.piano{
+    width:30%;
+    float:left;
+    margin-right:25px;
+    margin-left:10px;
+}
+
+.profile{
+      width:100%;
+}
+
+.contact-me{
+    width:40%;
+    margin:40px auto 60px auto;
+}
+
+.copyright{
+    color: black;
+    padding:20px;
+    font-size: 0.75rem;
+}
+
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+
+.bootom-container{
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
